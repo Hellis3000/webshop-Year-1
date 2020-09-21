@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/7653ca745b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Ghz Data</title>
+  </head>
+
+  <body>
+    <nav class="nav">
+      <div class="nav__logo">
+        <a href="./index.html">
+          <i class="fas fa-laptop"></i>
+        </a>
+      </div>
+      <div class="nav__search">
+        <input
+          class="search"
+          type="text"
+          name="search"
+          id=""
+          placeholder="search products"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="nav__cart">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="nav__cart-count">0</span>
+      </div>
+    </nav>
+    <section class="cart slide">
+      <h2 class="cart__heading">THANKS FOR SHOPPING WITH US</h2>
+
+      <div class="cart__underline"></div>
+      <div class="cart__continue">
+        <a href="./index.html">
+          <i class="fas fa-chevron-left"></i>
+          Back To Main Site
+        </a>
+      </div>
+      <section class="wrapper">
+        <section class="cart__result"></section>
+
+        <section class="cart__detail">
+          <div class="cart__total">
+            <div class="cart__total-line"></div>
+            <div class="cart__total-sub-total">
+              SUBTOTAL:<span id="sum" class="sum">0$</span>
+            </div>
+            <div class="cart__total-line"></div>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__extra">
+        <div class="footer__extra-wrapper">
+          <h4>Extra</h4>
+        </div>
+        <div class="footer__extra-page">
+          <p>About Us</p>
+          <p>FAQ</p>
+
+          <a href="./product.json" target="_blank">Source</a>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/checkout.js"></script>
+  </body>
+</html>

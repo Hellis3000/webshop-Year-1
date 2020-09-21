@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/7653ca745b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Ghz Data</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__logo">
+        <a href="./index.html">
+          <i class="fas fa-laptop"></i>
+        </a>
+      </div>
+      <div class="nav__search">
+        <input
+          class="search"
+          type="text"
+          name="search"
+          id=""
+          placeholder="search products"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="nav__cart">
+        <a href="./cart.html">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="nav__cart-count">0</span>
+        </a>
+      </div>
+    </nav>
+    <section class="hero-container">
+      <div class="hero"></div>
+      <h1 class="hero__header">Welcome to GHz Data</h1>
+    </section>
+
+    <section class="products slide"></section>
+
+    <footer class="footer">
+      <div class="footer__extra">
+        <div class="footer__extra-wrapper">
+          <h4>GHz Data</h4>
+        </div>
+        <div class="footer__extra-page">
+          <p>About Us</p>
+          <p>FAQ</p>
+          <a href="./product.json" target="_blank">Source</a>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/fetch.js"></script>
+  </body>
+</html>

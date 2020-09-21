@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "Legion Y7000.",
+      "image": "./images/laptop (1).png",
+      "price": "7220.00k$"
+    },
+    {
+      "id": 1,
+      "name": "Asus",
+      "image": "./images/laptop (2).png",
+      "price": "10330.00$"
+    },
+    {
+      "id": 2,
+      "name": "Toshiba",
+      "image": "./images/laptop (3).png",
+      "price": "1630.00$"
+    },
+    {
+      "id": 3,
+      "name": "Hp-Pavilion",
+      "image": "./images/laptop (4).png",
+      "price": "999.004$"
+    },
+    {
+      "id": 4,
+      "name": "Lenovo-Game",
+      "image": "./images/laptop (5).png",
+      "price": "888.004$"
+    },
+    {
+      "id": 5,
+      "name": "Macbook Air",
+      "image": "./images/laptop (6).png",
+      "price": "12330.00$"
+    },
+    {
+      "id": 6,
+      "name": "Windows-lap",
+      "image": "./images/laptop (7).png",
+      "price": "789.00$"
+    },
+    {
+      "id": 7,
+      "name": "Dell",
+      "image": "./images/laptop (8).png",
+      "price": "19330.00$"
+    },
+    {
+      "id": 8,
+      "name": "Dell-I4",
+      "image": "./images/laptop (9).png",
+      "price": "879.004$"
+    },
+    {
+      "id": 9,
+      "name": "Hp-Dragon",
+      "image": "./images/laptop (10).png",
+      "price": "1230.00$"
+    }
+  ]
+}
